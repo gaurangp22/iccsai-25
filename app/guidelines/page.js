@@ -64,7 +64,7 @@ const Page = () => {
         </div>
       </div>
 
-      {/* IEEE Similarity and Plagiarism Policies Section - Matches E-Copyright design with same logo */}
+      {/* IEEE Similarity and Plagiarism Policies Section */}
       <div className="max-w-[90%] mx-auto my-8 flex flex-col md:flex-row items-center bg-gray-200 p-4 rounded-lg shadow-md">
         {/* Same Logo as Copyright section */}
         <div className="flex-shrink-0 mb-4 md:mb-0">
@@ -85,7 +85,7 @@ const Page = () => {
           </p>
         </div>
 
-        {/* View Button */}
+        {/* View Button - Updated text */}
         <a 
           href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" 
           target="_blank"
@@ -93,12 +93,12 @@ const Page = () => {
           className="mt-4 md:mt-0"
         > 
           <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
-            <span className="mr-2">→</span> View Policies
+            <span className="mr-2">→</span> Redirect to Link
           </button>
         </a>
       </div>
 
-      {/* IEEE E-Copyright Process */}
+      {/* IEEE E-Copyright Process - Updated link and button text */}
       <div className="max-w-[90%] mx-auto my-8 flex flex-col md:flex-row items-center bg-gray-200 p-4 rounded-lg shadow-md">
         {/* Logo */}
         <div className="flex-shrink-0 mb-4 md:mb-0">
@@ -119,15 +119,15 @@ const Page = () => {
           </p>
         </div>
 
-        {/* Download Button */}
+        {/* Download Button - Updated link and text */}
         <a 
-          href="https://iccsai.in/assets/docs/ieee-copyright-process.pdf" 
+          href="https://www.ieee.org/publications/rights/copyright-policy.html" 
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 md:mt-0"
         > 
           <button className="bg-[#FF3A3A] text-white px-4 py-2 rounded-lg text-base font-medium flex items-center hover:bg-red-600 transition-colors">
-            <span className="mr-2">⬇</span> Download Here
+            <span className="mr-2">→</span> Redirect to Link
           </button>
         </a>
       </div>
