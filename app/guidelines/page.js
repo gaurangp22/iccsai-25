@@ -64,13 +64,13 @@ const Page = () => {
         </div>
       </div>
 
-      {/* IEEE Similarity and Plagiarism Policies Section - Matches E-Copyright design */}
+      {/* IEEE Similarity and Plagiarism Policies Section - Matches E-Copyright design with same logo */}
       <div className="max-w-[90%] mx-auto my-8 flex flex-col md:flex-row items-center bg-gray-200 p-4 rounded-lg shadow-md">
-        {/* Logo Placeholder - could be replaced with a plagiarism policy icon */}
+        {/* Same Logo as Copyright section */}
         <div className="flex-shrink-0 mb-4 md:mb-0">
           <img
-            src="/logos/ieee_logo.png"
-            alt="IEEE Logo"
+            src="/logos/iccsai_logo.png"
+            alt="ICCSAI Logo"
             className="size-16 md:size-20 rounded-lg"
           />
         </div>
